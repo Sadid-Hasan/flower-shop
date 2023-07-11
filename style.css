@@ -1,5 +1,23 @@
 
-/* header related styles */
+/* navigation menu styles */
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 30px;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Lato;
+    text-decoration-line: underline;
+}
+
+/* banner section styles */
 .banner{
     padding: 197px 240px 147px 240px;
     display: flex;
