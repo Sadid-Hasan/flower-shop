@@ -1,0 +1,200 @@
+/* header related styles */
+.banner{
+    padding: 197px 240px 147px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-greeting{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-paragraph{
+    display: flex;
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-picture{
+    width: 635px;
+    height: 800px;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Lato;
+    padding: 20px 43px;
+}
+/* Offer  section styles */
+.offer{
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 230px 429px 162px 423px;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    width: auto;
+    height: auto;
+}
+.offer-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 230px;
+}
+.offer-description{
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-signup {
+    align-self: center;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Lato;
+    padding: 20px 43px;
+}
+
+.offer-picture{
+    width: 318px;
+    height: 420px;
+    padding: 100px 429px 100px;
+}
+
+/* instagram section styles */
+.instagram-section{
+    background-size: 1440px 449px;
+    background-position: center;
+    padding: 240px 240px;
+    align-items: center;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+ /* Subscribers email form Section */
+ .subscriber{
+    background: url('Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: 1440px 449px;
+    background-position: center;
+    text-align: center;
+    padding: 240px 240px;
+    align-items: center;
+ }
+ .subscriber-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+ .subscriber-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+ }
+ .subscriber-form{
+    display: flex;
+    align-items: center;
+    
+ }
+ .input-box{
+    font-size: 16px;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 20px ;
+    border-style: hidden;
+ }
+/* footer  Section */
+.footer-section{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+.footer-title{
+    padding-top: 100px ;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.footer-paragraph{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
