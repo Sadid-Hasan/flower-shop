@@ -93,7 +93,7 @@
 .feature-box{
     display: flex;
     padding-left: 200px;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 .feature-images-1{
     width: 310px;
@@ -126,11 +126,12 @@
 }
 /* Offer  section styles */
 .offer{
+    text-align: center;
     display: flex;
     align-items: center;
     background: rgba(229, 84, 115, 0.05);
     padding: 230px 429px 162px 423px;
-    justify-content: space-between;
+    justify-content: center;
     background: rgba(229, 84, 115, 0.10);
     width: auto;
     height: auto;
@@ -140,7 +141,7 @@
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
     padding-top: 230px;
 }
@@ -157,7 +158,6 @@
     line-height: 30px;
 }
 .btn-signup {
-    display: block;
     align-self: center;
     border-radius: 8px;
     background: #E55473;
