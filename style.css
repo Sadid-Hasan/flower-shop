@@ -1,7 +1,3 @@
-{
-    margin:0px;
-    padding:0px;
-}
 
 /* header related styles */
 .banner{
@@ -79,14 +75,14 @@
     line-height: 30px;
 }
 .feature-picture-1{
+    align-items: center;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    background-position: cover;
-
 }
 .feature-picture-2{
+    align-items: center;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -94,10 +90,11 @@
 
 }
 .feature-picture-3{
+    align-items: center;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background:rgba(71, 125, 17, 0.15);
 }
  .feature-caption{
     display: flex;
