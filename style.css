@@ -51,7 +51,6 @@
     text-align: center;
     width: 1920px;
     height: 850px;
-    flex-shrink: 0;
     align-items: center;
 }
 .feature-title{
@@ -140,6 +139,7 @@
     line-height: 30px;
 }
 .btn-signup {
+    display: block;
     align-self: center;
     border-radius: 8px;
     background: #E55473;
